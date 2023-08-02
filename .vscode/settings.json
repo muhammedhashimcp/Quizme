@@ -1,0 +1,15 @@
+{
+	"prisma-smart-formatter.prisma.defaultFormatter": "Prisma.prisma",
+	"editor.acceptSuggestionOnEnter": "on",
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true,
+		"*/**/node_modules/": false,
+		"components/": true
+	},
+	"explorerExclude.backup": {}
+}
