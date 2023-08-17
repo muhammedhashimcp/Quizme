@@ -3,7 +3,7 @@
 
 Quizme is an innovative quiz application that leverages AI-powered features to enhance the quiz-taking experience. With the combination of Next.js, Typescript,  OpenAI ChatGPT, React Query, Tailwind CSS, Shadcn/UI, and Prisma ORM, Quizme offers a seamless and user-friendly interface for creating and taking quizzes.
 
-![Quizme Screenshot](quizme-image.PNG)
+![Quizme Screenshot](public/quizme-image.PNG)
 
 ## Features
 
@@ -41,31 +41,36 @@ Follow these steps to set up and run Quizme on your local machine:
    GOOGLE_CLIENT_SECRET=
    NEXTAUTH_SECRET=
    OPENAI_API_KEY=
-API_URL='http://localhost:3000'
-  
+   API_URL='http://localhost:3000'
    ```
+
 4. Create an account in planetscale and add the url here 
-   ```
-   DATABASE_URL=
 
    ```
+   DATABASE_URL=
+   ```
+
 5. Create a Google Cloud authentication (auth) ID account for our project.
+
    ```
    GOOGLE_CLIENT_ID=
    GOOGLE_CLIENT_SECRET=
-
    ```
 6. create a open ai account and generate a key
-   ```
-  OPENAI_API_KEY=
 
    ```
-5. Put any nextauth secret here.
+   OPENAI_API_KEY=
+
+   ```
+
+7. Put any nextauth secret here.
+
    ```
   NEXTAUTH_SECRET=
 
    ```
-5. sync database with prisma orm:
+
+8. sync database with prisma orm:
    
    ```
    npx prisma generate
@@ -73,16 +78,17 @@ API_URL='http://localhost:3000'
    npx prisma studio
 
    ```
+
    For more details visit : https://www.prisma.io/docs/
    More practical guide here: https://blog.openreplay.com/working-with-databases-in-next-js-using-prisma/
 
-5. Run the development server:
+9. Run the development server:
 
-   ```bash
+   ```
    npm run dev
    ```
 
-6. Open your browser and navigate to `http://localhost:3000` to access Quizme.
+10. Open your browser and navigate to `http://localhost:3000` to access Quizme.
 
 ## Usage
 
