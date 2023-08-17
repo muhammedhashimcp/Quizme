@@ -86,6 +86,7 @@ Follow these steps to set up and run Quizme on your local machine:
 
    ```
    npm run dev
+   
    ```
 
 10. Open your browser and navigate to `http://localhost:3000` to access Quizme.
