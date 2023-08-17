@@ -10,7 +10,7 @@ import DetailsDialog from '@/components/DetailsDialog';
 type Props = {};
 
 export const metadata = {
-	title: 'Dashboard | Quizmify',
+	title: 'Dashboard | Quizme.io',
 	description: 'Quiz yourself on anything!',
 };
 

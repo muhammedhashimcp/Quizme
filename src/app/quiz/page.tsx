@@ -4,7 +4,7 @@ import { redirect } from 'next/navigation';
 import React from 'react'
 
 export const metadata = {
-	title: 'Quiz | Quizmify',
+	title: 'Quiz | Quizme.io',
 	description: 'Quiz yourself on anything!',
 };
 interface Props {

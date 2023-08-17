@@ -9,7 +9,7 @@ import { Toaster } from '@/components/ui/toaster'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Quizmify',
+  title: 'Quizme',
   description: 'Powered by openai',
 }
 
@@ -34,4 +34,4 @@ export default function RootLayout({
 			</body>
 		</html>
   );
-}
+} 
